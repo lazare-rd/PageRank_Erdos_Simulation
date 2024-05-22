@@ -53,19 +53,3 @@ class matrice_creuse_colonne:
         r = [A[i]*B[i] for i in range(N)]
         return sum(r)
     
-"""
-M = matrice_creuse_colonne("matrices/wb-cs-stanford.mtx")
-x = [1/M.N for x in range(M.N)]
-
-A = [1, 2, 3]
-B = [1, 2, 3]
-
-print(M.P[0][1])
-print(M.line_count[250])
-
-def main():
-    pass
-
-if __name__ == '__main__':
-    main()
-"""
